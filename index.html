@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=0 ">
+    <title>方志青-个人简历</title>
+    <link type="text/css"   href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/component.css">
+    <link type="text/css"   href="css/index.css" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target="#topnavbar">
+<!-- 头部大背景 -->
+<header>
+    <div class="container">
+    <!-- 顶部导航 -->
+        <nav class="navbar navbar-default navbar-fixed-top" id="topnavbar">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#head-navbar" aria-expanded="false">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand logo" href="#">Fangdown</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right" id="head-navbar">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#topnavbar">首页 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#introduce">自我介绍</a></li>
+                <li><a href="#portfolio">我的作品</a></li>
+                <li><a href="#skill">工作技能</a></li>
+                <li><a href="#experience">工作经历</a></li>
+                <li><a href="#education">教育经历</a></li>
+                <li><a href="#contact">联系我</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+
+        <div class="head-img">
+            <img src="img/mine-and-girl.jpg" class="img-responsive img-circle" title="我和我的女儿"  
+      data-container="body" data-toggle="popover" data-placement="right" 
+      data-content="我的女儿漂亮吧，带她见见大家！">
+        </div>
+        <div class="head-Career">
+            <h1>你好!我是方志青<small>Hi!I'm fangdown</small></h1>
+            <p>Web前端工程师</p>
+            <a href="#" class="btn btn-danger">关于我</a>
+            <a href="#" class="btn btn-danger">联系我</a>
+        </div>
+    </div>
+</header>    
+<!-- 自我介绍 -->
+<div class="introduce" id="introduce">
+    <div class="container">
+        <p>各位老板好，我叫方志青，1986年生人，本科毕业，学士，一直从事计算机行业。细数在以前的公司中工作认真、积极主动为公司服务，体现了应有及期望的价值，本着一如既往的精神去践行人生的旅程。<br/><br/>“学海无涯苦作舟、长风破浪会有时”---在如今互联网应用爆发的浪潮中奋勇向前，提高自己，追赶潮流。</p>
+        <p>应聘方向：WEB前端开发、HTML5前端</p>
+    </div>
+    
+</div>
+<!-- 我的作品 -->
+<div class="product" id="portfolio">
+    <!-- <div class="container">
+        <div class="row">
+            <div class="portfolio-items" style="position: relative; overflow: hidden; height: 380px;">
+                <div class="col-sm-6 col-md-3 col-lg-3" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); opacity: 1;">
+                  <div class="portfolio-item">
+                    <div class="hover-bg"> <a href="img/01.jpg" title="Project description" rel="prettyPhoto">
+                      <div class="hover-text">
+                        <h4>Project Title</h4>
+                        <small>Web Design</small>
+                        <div class="clearfix"></div>
+                        <i class="fa fa-search"></i> 
+                      </div>
+                      <img src="img/01.jpg" class="img-responsive" alt="Project Title"> </a> 
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+        </div> -->
+    </div>    
+
+</div>
+<!-- 我的技能 -->
+<div class="skill" id="skill">
+    <div class="container">
+        <div class="skill-title">
+            <h3>掌握技能</h3>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-md-3 col-sm-6 col-skill">
+                <span class="chart" data-percent="80"> <span class="percent">精通</span></span>
+                <h4>HTML5</h4>
+            </div>
+            <div class="col-xs-12 col-md-3 col-sm-6 col-skill">
+                <span class="chart" data-percent="90"> <span class="percent">90</span></span>
+                <h4>CSS3</h4>
+            </div>
+            <div class="col-xs-12 col-md-3 col-sm-6 col-skill">
+                <span class="chart" data-percent="80"> <span class="percent">80</span></span>
+                <h4>Javascript</h4>
+            </div>
+            <div class="col-xs-12 col-md-3 col-sm-6 col-skill">
+                <span class="chart" data-percent="95"> <span class="percent">95</span></span>
+                <h4>Jquery</h4>
+            </div>
+        </div>
+        <div class="skill-subtitle">
+            <h3>相关技能</h3>
+        </div>
+        <div class="subskill">
+            <div class="col-xs-12 col-sm-6 text-center subtitle ">UI布局框架</div>
+            <div class="col-xs-12 col-sm-6">
+                <span>Bootstrap</span>
+                <div class="progress progress-striped">
+                   <div class="progress-bar progress-bar-success" role="progressbar" 
+                      aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" 
+                      style="width: 90%;">
+                   </div>
+                </div>
+                <span>Easyui</span>
+                <div class="progress progress-striped">
+                   <div class="progress-bar progress-bar-danger" role="progressbar" 
+                      aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" 
+                      style="width: 40%;">
+                   </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 text-center center-vertical ">程序语言</div>
+            <div class="col-xs-12 col-sm-6">
+                <span>JAVA</span>
+                <div class="progress progress-striped">
+                   <div class="progress-bar progress-bar-info" role="progressbar" 
+                      aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" 
+                      style="width: 70%;">
+                   </div>
+                </div>
+                <span>PHP</span>
+                <div class="progress progress-striped">
+                   <div class="progress-bar progress-bar-warning" role="progressbar" 
+                      aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" 
+                      style="width: 60%;">
+                   </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 text-center center-vertical ">数据库</div>
+            <div class="col-xs-12 col-sm-6">
+                <span>Mysql</span>
+                <div class="progress progress-striped">
+                   <div class="progress-bar progress-bar-success" role="progressbar" 
+                      aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" 
+                      style="width: 80%;">
+                   </div>
+                </div>
+                <span>Oracle</span>
+                <div class="progress progress-striped">
+                   <div class="progress-bar progress-bar-info" role="progressbar" 
+                      aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" 
+                      style="width: 70%;">
+                   </div>
+                </div>
+                <span>Mssql</span>
+                <div class="progress progress-striped">
+                   <div class="progress-bar progress-bar-warning" role="progressbar" 
+                      aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" 
+                      style="width: 60%;">
+                   </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 text-center ">开发工具</div>
+            <div class="col-xs-12 col-sm-6">
+                <span>Eclipse</span>
+                <div class="progress progress-striped">
+                   <div class="progress-bar progress-bar-success" role="progressbar" 
+                      aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" 
+                      style="width: 80%;">
+                   </div>
+                </div>
+                <span>Sublime</span>
+                <div class="progress progress-striped">
+                   <div class="progress-bar progress-bar-info" role="progressbar" 
+                      aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" 
+                      style="width: 70%;">
+                   </div>
+                </div>
+                <span>Webstrom</span>
+                <div class="progress progress-striped">
+                   <div class="progress-bar progress-bar-warning" role="progressbar" 
+                      aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" 
+                      style="width: 60%;">
+                   </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+</div>
+<!-- 工作经历 -->
+<div class="experience" id="experience">
+    <h3>工作经历</h3>
+    <div class="container">
+        <div class="main">
+                <ul class="cbp_tmtimeline">
+                    <li>
+                        <time class="cbp_tmtime" datetime="2015-12-28 00:00"><span>
+                        2015</span> <span>12-28</span></time>
+                        <div class="cbp_tmicon"></div>
+                        <div class="cbp_tmlabel">
+                            <h2>广州赛意科技股份有限公司</h2>
+                            <p>1、配合设计师、产品人员实现产品UI和交互方面需求的开发，实现Web界面并保持良好兼容性；<br/>
+                                2、负责公司各业务的前端HTML、CSS、Javascript、AJAX前端开发； <br/>
+                                3、整体页面结构及样式层结构的设计、优化；</p>
+                            <p>在华为公司从事大数据项目开发，使用到的技术有bootstrap页面布局、双飞翼布局；CSS3的渐变、动画特效；交互性标签页、面板展示内容；Ztree树结构节点图形替换、单击、双击、拖拽事件效果；SVG绘图、HTML5 postMessage跨域传值交互；JS函数闭包调用，内存读写更改；Jquery页面事件响应与文档交互处理；调用ajax与后台（JAVA）进行读取数据，回调函数使页面元素数据动态刷新；IE浏览器、Chrome浏览器兼容性优雅降级等等。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <time class="cbp_tmtime" datetime="2012-03-01 00:00"><span>
+                        2012</span> <span>03-01</span></time>
+                        <div class="cbp_tmicon "></div>
+                        <div class="cbp_tmlabel">
+                            <h2>中国联通池州分公司</h2>
+                            <p>主要负责web 应用系统(H5)的整体开发设计实施部署上线（JSP/PHP+MYSQL/ORACLE）,前端界面使用bootstrap 、easyui开发，熟练使用jquery、ajax等js工具开发相关功能，熟练使用Photoshop，flash等工具设计网站；熟练使用SQL Server、Oracle、MySQL 数据库进行数据提取；负责公司内网组建和运营、维护，管理全市内网交换机及路由器（华为NE40E、9300、5300、3300系列）；负责公司信息数据安全；负责公司应用系统的维护；负责公司电脑管理及维护。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <time class="cbp_tmtime" datetime="2008-03-01 00:00"><span>
+                        2008</span> <span>03-01</span></time>
+                        <div class="cbp_tmicon "></div>
+                        <div class="cbp_tmlabel">
+                            <h2>上海道安科技技术有限公司</h2>
+                            <p>从事web软件开发工作，使用JAVA/JSP语言进行开发，photoshop设计，主要职责是程序功能的开发，开发方向为：办公OA系统代码编写，前后端web交互</p>
+                        </div>
+                    </li>
+                    <li>
+                        <time class="cbp_tmtime" datetime="2005-06-11 00:00"><span>
+                        2005</span> <span>06-11</span></time>
+                        <div class="cbp_tmicon "></div>
+                        <div class="cbp_tmlabel">
+                            <h2>西南民族大学天异网络工作室</h2>
+                            <p>天异网络是学校校内网，主要提供歌曲、影视、学习、工具类的综合性网站，本人主要是负责该网站的程序更新优化，界面美化。更为学院单位提供网站制作设计。</p>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+    </div>
+
+</div>
+<!-- 教育经历 -->
+<div class="education" id="education">
+    <div class="container">
+        <h3>教育经历</h3>
+       <section id="cd-timeline" class="cd-container">
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture">
+                <img src="img/cd-icon-picture.svg" alt="Picture">
+            </div><!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+                <h2>西南民族大学</h2>
+                <p>2004年很高兴进入坐落在美丽成都的西南民族大学，专业是计算机科学与技术，所学专业课课程：c语言、C++语言、JAVA语言、数据结构、计算机编译原理，自学课程有Photoshop设计、动态网站开发课程等。在校期间成绩良好，各科顺利完成、取得英语四级证书、毕业证、学位证，课外时间报思科CCNA网络初级工程师认证并取得证书，在校期间参与校园团体活动并在天异网络工作室担任管理工作，承前启后，接好上一届学长的岗、并培养下一届接班同学。</p>
+                <span class="cd-date">2004-2008</span>
+            </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-movie">
+                <img src="img/cd-icon-movie.svg" alt="Movie">
+            </div> <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+                <h2>安徽池州市贵池区第八中学</h2>
+                <p>第八中学是一所省示范重点高中，我在当时的重点班学习，在校期间成绩良好（其中一次月考全班第二）、学习方向为理工科。</p>
+                <span class="cd-date">2001-2004</span>
+            </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+        
+    
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-movie">
+                <img src="img/cd-icon-location.svg" alt="Movie">
+            </div> <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+                <h2>安徽池州市贵池区涓桥中学</h2>
+                <p>在校期间成绩优秀、一直在班级名列前茅、在班级担任学习委员、班长等角色。</p>
+                <span class="cd-date">1998-2001</span>
+            </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+    </section> <!-- cd-timeline -->
+
+    </div>
+    
+</div>
+<!-- 联系我 -->
+<div class="contact" id="contact">
+    <div class="container">
+        <h3>联系我</h3>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="col-md-6">
+                    <i class="glyphicon glyphicon-envelope text-center "></i>
+                    <p>409951398@qq.com</p>
+                </div>
+                <div class="col-md-6">
+                    <i class="glyphicon glyphicon-phone-alt text-center"></i>
+                    <p>18656619649</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+</div>
+
+<footer id="footer"></footer>
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/easypiechart.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
